@@ -1,9 +1,6 @@
 # Visual Studio 2015 user specific files
 .vs/
 
-# Rider for Unreal files
-.idea/
-
 # Compiled Object files
 *.slo
 *.lo
@@ -54,7 +51,6 @@ Plugins/*/Binaries/*
 
 # Builds
 Build/*
-Platforms/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -76,9 +72,3 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-
-# Raw content
-/RawContent/**/* 
-
-# .vsconfig
-.vsconfig
